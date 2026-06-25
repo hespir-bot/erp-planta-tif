@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { supervisorService, operarioService, generalService } from '../services/api';
+import { supervisorService, generalService } from '../services/api';
 import '../styles/Dashboard.css';
 
 function DashboardSupervisor({ user, onLogout }) {
